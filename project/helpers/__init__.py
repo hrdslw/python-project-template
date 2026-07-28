@@ -1,0 +1,1 @@
+from project.helpers.template_paths import ROOT_DIR, PROJECT_DATA_DIR
