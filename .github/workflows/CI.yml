@@ -13,3 +13,11 @@ jobs:
       - run: uv lock --locked
       - run: uv sync --all-groups
       - run: uv run ruff check .
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv lock --locked
+      - run: uv sync --all-groups
+      - run: uv run pytest
