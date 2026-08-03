@@ -1,3 +1,5 @@
+[[!CI workflow](https://github.com/mike-live/python-project-template/actions/workflows/CI.yml/badge.svg)](https://github.com/mike-live/python-project-template/actions/workflows/CI.yml)
+
 # python-project-template
 Template for UNN python projects
 ## 1. Structure
