@@ -20,4 +20,4 @@ jobs:
       - uses: astral-sh/setup-uv@v3
       - run: uv lock --locked
       - run: uv sync --all-groups
-      - run: uv run pytest
+      - run: uv run pytest --cov=project -v
