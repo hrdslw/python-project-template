@@ -1,5 +1,6 @@
 from project.helpers import PROJECT_DATA_DIR, ROOT_DIR
 
+
 def test_root_dir_exists():
     assert ROOT_DIR.exists()
 
