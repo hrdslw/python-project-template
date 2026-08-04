@@ -1,4 +1,6 @@
 [![CI workflow](https://github.com/mike-live/python-project-template/actions/workflows/CI.yml/badge.svg)](https://github.com/mike-live/python-project-template/actions/workflows/CI.yml)
+[![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/hrdslw/e8ec108de82c4a3c759a6ba2d114c028/raw/clone.json&logo=github)](https://github.com/MShawon/github-clone-count-badge)
+
 
 # python-project-template
 Template for UNN python projects
