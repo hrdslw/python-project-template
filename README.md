@@ -32,6 +32,6 @@ addition(2, 3)
 ```
 ## Development
 ```bash
-uv run ruff check .        # linter's check in all 'project' files
-uv run pytest --cov=project  # runs unit tests and a coverage check
+`uv run ruff check .` - read more [readmes/LINTER.md](readmes/LINTER.md)
+`uv run pytest --cov=project` - read more [readmes/UNIT_TESTS.md](readmes/UNIT_TESTS.md)
 ```
