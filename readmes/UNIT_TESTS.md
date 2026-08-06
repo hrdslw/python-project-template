@@ -6,8 +6,8 @@ unit tests. `pytest-cov` (plugin) additionally calculates test coverage.
 ## Usage
 
 ```bash
-uv run pytest                      # just run the tests
-uv run pytest --cov=project        # tests + coverage percentage for project/
+uv run pytest                      # just run the tests (you can add -v to the end of the line for detailed output)
+uv run pytest --cov=project -v     # tests + coverage percentage for project/ with details
 uv run pytest --cov=project --cov-report=xml  # same + save report to a file
 ```
 
